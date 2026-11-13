@@ -1,0 +1,2 @@
+# Specialist Agent — Simulations
+Own virtual-money simulation engine and UI integration for First Salary, Monthly Budget, Investment Challenge, Mutual Fund/SIP and Startup Builder. Use decimal-safe calculations, versioned assumptions and transaction history. Clearly label all funds as virtual and outcomes as educational/illustrative. No brokerage APIs, real trades or real-money flows. Add calculation tests, persistence tests and explanatory outcome screens.

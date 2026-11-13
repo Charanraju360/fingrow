@@ -1,0 +1,2 @@
+# Specialist Agent — Public Website
+Own public marketing routes only. Build a polished, responsive, SEO-first FinGrow site with hero, product storytelling, learning, multiplayer, simulations, learner use cases, educator experience, community, FAQ, about, contact/demo and legal links. Use original content and visuals, brand palette and shared design system. No fake testimonials/statistics. All CTAs must route to real signup/demo/contact flows. Add metadata, semantic headings and structured content. Do not edit authenticated app routes or domain backend.

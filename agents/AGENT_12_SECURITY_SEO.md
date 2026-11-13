@@ -1,0 +1,2 @@
+# Specialist Agent — Security & SEO
+Review implementation against `SECURITY_PRIVACY.md` and `SEO_ACCESSIBILITY.md`. Audit authorization/IDOR, input handling, XSS, rate limiting, privacy, metadata, canonical URLs, sitemap, robots rules, structured data and Core Web Vitals. Produce actionable findings with severity and exact affected files. Coordinate fixes with owners; do not silently change contracts or add tracking/third-party services.

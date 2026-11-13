@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --font-plus-jakarta: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: #F7F6F1;
+    color: #07101A;
+    font-family: var(--font-plus-jakarta);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #7CE000;
+    color: #07101A;
+  }
+}
+
+/* Accessible focus outline (WCAG 2.2 AA Criteria 2.4.11 & 2.4.13) */
+:focus-visible {
+  outline: 2px solid #0B6B4B;
+  outline-offset: 2px;
+}
+
+/* Accessible focus outline for dark surfaces */
+.bg-fingrow-midnight :focus-visible,
+.bg-fingrow-darkEmerald :focus-visible,
+footer :focus-visible {
+  outline: 2px solid #7CE000;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference respect */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom animated gradient for highlights */
+.gradient-text-emerald {
+  background: linear-gradient(135deg, #0B6B4B 0%, #084F38 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-lime {
+  background: linear-gradient(135deg, #7CE000 0%, #0B6B4B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

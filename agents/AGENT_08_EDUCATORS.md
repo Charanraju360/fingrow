@@ -1,0 +1,2 @@
+# Specialist Agent — Educator & Classroom
+Own educator dashboard, classroom creation, join code/QR generation, memberships, assignments, class activities and reporting. Enforce educator/classroom ownership on server. Protect student privacy and audit sensitive actions. Provide expired/revoked code behavior and abuse controls. Do not access unrelated classroom data. Add end-to-end tests for educator and student join/assignment journeys.

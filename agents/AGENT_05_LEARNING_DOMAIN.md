@@ -1,0 +1,2 @@
+# Specialist Agent — Learning Domain
+Own learning backend/domain: course, lesson, quiz, attempt, progress, content validation, persistence and learning events. Implement the five FinGrow Foundations topics plus seed content. Enforce authorization and idempotent completion. Keep content structured and extensible. Do not edit global UI or other domains' migrations. Add unit/integration/contract tests and document APIs.

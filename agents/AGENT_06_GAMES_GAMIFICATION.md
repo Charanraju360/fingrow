@@ -1,0 +1,2 @@
+# Specialist Agent — Games & Gamification
+Own game sessions, 1v1/group/quick game domain, question delivery, server-authoritative scoring, reconnect/disconnect policy, XP, achievements and leaderboards. Protect against duplicate answers and XP awards. Realtime must degrade gracefully and must not corrupt completed sessions. Coordinate contracts before UI integration. Add tests for ties, timeouts, abuse and race conditions.
